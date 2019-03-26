@@ -1,0 +1,22 @@
+{
+  "name": "my_profile",
+  "version": "1.0.0",
+  "description": "My Profile (Front End Developer)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/main.scss -o dist/css/main.css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/profhyzik.git"
+  },
+  "author": "Isaac Olagoke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/profhyzik/issues"
+  },
+  "homepage": "https://github.com/github.com/profhyzik#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
