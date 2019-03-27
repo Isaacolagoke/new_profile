@@ -1,11 +1,15 @@
 // WideScreens
 @include mediaXl {
-
+    .project {
+        grid-template-columns: repeat (4, 1fr);
+    }
 }
 
 // Desktops & Laptops
 @include mediaLg {
-
+    .project {
+        grid-template-columns: repeat (3, 1fr);
+    }
 }
 
 // Tablets & Small Laptops
@@ -64,6 +68,10 @@
           }
     
     }
+
+    .project {
+        grid-template-columns: repeat (2, 1fr);
+    }
 }
 
 // Smartphones
@@ -71,6 +79,10 @@
     main#home h1 {
         margin-top: 10vh !important;
         font-size: 4rem;
+    }
+
+    .project {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -81,5 +93,22 @@
         margin-top: 10vh !important;
         font-size: 3rem;
     }
+     // About Info
+     .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
+
+        .bio {
+            font-size: 1rem;
+          }
+    
+    }
+   
 }
 
